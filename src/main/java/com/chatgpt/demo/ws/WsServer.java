@@ -19,7 +19,7 @@ import java.util.concurrent.ConcurrentHashMap;
 
 @Slf4j
 @Component
-@ServerEndpoint("/gtpws/{cid}")
+@ServerEndpoint("/gptws/{cid}")
 public class WsServer {
 
     private static int onlineCount = 0;
